@@ -5,11 +5,12 @@ public class Tempconvert {
 
         System.out.print("Enter a Celsius value: ");
         int celVal=input.nextInt();
-        System.out.println(celVal + " Celsius is " + String.format("%.2f", fahrenheitconversion(celVal)) + " Fahrenheit");
+        double celValDouble=(double) celVal;
+        System.out.println(String.format("%.2f", celValDouble) + " Celsius is " + String.format("%.2f", fahrenheitconversion(celValDouble))+ " Fahrenheit");
     }
 
-    public static double fahrenheitconversion(int celVal) {
-        double fahrenheit=(celVal*9/5)+(32);
+    public static double fahrenheitconversion(double celValDouble) {
+        double fahrenheit=(celValDouble*9/5)+(32);
         return fahrenheit;
     }
 }
