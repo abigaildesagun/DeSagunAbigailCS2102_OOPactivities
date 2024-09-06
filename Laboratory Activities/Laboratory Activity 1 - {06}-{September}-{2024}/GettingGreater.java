@@ -13,9 +13,9 @@ public class GettingGreater {
         int ch2Ascii= (int) ch2;
         char greaterVal= (char) Math.max(ch1Ascii, ch2Ascii);
 
-        System.out.println("-----------------------");
+        System.out.println("--------------------------------------------");
         System.out.println("The character with greater value is: " + greaterVal);
-        System.out.println("-----------------------");
+        System.out.println("--------------------------------------------");
 
         System.out.println("Showing the ASCII Codes");
         System.out.println(ch1 + " : " + ch1Ascii);
