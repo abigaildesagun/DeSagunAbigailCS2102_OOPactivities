@@ -14,12 +14,12 @@ public class GetArrayMean {
             arr[i]=num;
         }
 
-        System.out.println("Mean of array is: " + String.format("%.2f",getMean(arr, elNum)));
+        System.out.println("Mean of array is: " + String.format("%.2f",getArrayMean(arr, elNum)));
 
         input.close();
     }
 
-    public static double getMean (int [] arr, int elNum){
+    public static double getArrayMean (int [] arr, int elNum){
         int sum=0;
 
         for (int i=0; i<elNum; i++){
