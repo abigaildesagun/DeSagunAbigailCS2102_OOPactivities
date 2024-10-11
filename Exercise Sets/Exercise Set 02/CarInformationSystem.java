@@ -8,7 +8,7 @@ class Car {
     public Car(String color, double price, char size){
         this.color=color;
         this.price=price;
-        this.size=size;
+        this.size=Character.toUpperCase(size);
     }
 
     //getters
@@ -62,21 +62,27 @@ class Car {
 
 public class CarInformationSystem {
     public static void main(String[] args) {
-        Scanner input=new Scanner (System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the car's color: ");
-        String carColor=input.nextLine();
+        String carColor = input.nextLine();
         System.out.print("Enter the car's price: ");
-        double carPrice=input.nextDouble();
+        double carPrice = input.nextDouble();
         System.out.print("Enter the car's size (Small, Medium, or Large): ");
-        String carStrSize=input.next().toUpperCase();
-        char carSize=carStrSize.charAt(0);
+        String carStrSize = input.next().toUpperCase();
+        char carSize = carStrSize.charAt(0);
 
         Car car = new Car(carColor, carPrice, carSize);
+
+        System.out.println("-------------------------------------");
+        System.out.println("COLLECTED DATA");
+        System.out.println("Color: " + car.getColor());
+        System.out.println("Price: " + String.format("%.2f", car.getPrice()));
+        System.out.println("Size: " + car.getSize());
         System.out.println("-------------------------------------");
         System.out.println(car);
         System.out.println("-------------------------------------");
-        
+
         input.close();
     }
 }
