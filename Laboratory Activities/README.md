@@ -15,7 +15,7 @@ This repository is composed of laboratory activities that explores the foundatio
 - Arrays (1D and 2D)
 - Looping statements
 - Nested looping statements
-- Functions or methods
+- Functions or Methods
 - Enums
 - Escape sequences
 
@@ -35,14 +35,14 @@ Illustrates the concepts of Object-Oriented Programming.
 - [Artist](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%203%20-%20%7B22%7D-%7BNovember%7D-%7B2024%7D/Artists/Artist.java): A superclass that represents general details about artists, utilizing getters, setters, and constructors to manage and initialize the attributes.
 - [Dancer](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%203%20-%20%7B22%7D-%7BNovember%7D-%7B2024%7D/Artists/Dancer.java), [Painter](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%203%20-%20%7B22%7D-%7BNovember%7D-%7B2024%7D/Artists/Painter.java), [Singer](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%203%20-%20%7B22%7D-%7BNovember%7D-%7B2024%7D/Artists/Singer.java), and [Writer](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%203%20-%20%7B22%7D-%7BNovember%7D-%7B2024%7D/Artists/Writer.java): The subclasses. They incorporate enums and overrides a superclass function to print details tailored to a specific artist and their unique art style.
 - [ArtistDemo](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%203%20-%20%7B22%7D-%7BNovember%7D-%7B2024%7D/Artists/ArtistDemo.java): The main class which demonstrates the concept of initialization.
-Note: Include only the classes in the package that need to be accessed externally, and ensure the package name follows Java's standard by using **lowercase** formatting.
+Note: Ensure that only the classes needed for external access are included in the package, and follow Java's standard for package naming by using **lowercase** formatting.
 
 #### Laboratory Activity 4
 Demonstrates Object-Oriented Programming concepts while utilizing interfaces to define and implement shared functionalities across different classes.
-- [Shape](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/Shape.java): The interface, which defines three methods/functions that are overridden by multiple implementing classes.
-- [Rectangle](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/Rectangle.java), [Square](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/Square.java), and [Triangle](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/Triangle.java): Implements the interface and overrides its methods/functions, with each class providing its own unique implementation.
+- [Shape](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/Shape.java): The interface, which defines three methods that are overridden by multiple implementing classes.
+- [Rectangle](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/Rectangle.java), [Square](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/Square.java), and [Triangle](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/Triangle.java): Implements the interface and overrides its methods, with each class providing its own unique implementation.
 - [ShapeCollection](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/ShapeCollection.java): Utilizes the concept of for-each loop to print the different values of the shapes.
-Note: Include only the classes in the package that need to be accessed externally, and ensure the package name follows Java's standard by using **lowercase** formatting.
+Note: Ensure that only the classes needed for external access are included in the package, and follow Java's standard for package naming by using **lowercase** formatting.
 
 ### Instruction for Reviewers
 - Each person has their unique coding style. Do not just copy others' code, use it as inspiration to develop your own tailored approach.
