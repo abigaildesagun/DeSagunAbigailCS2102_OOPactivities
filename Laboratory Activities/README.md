@@ -44,9 +44,9 @@ Demonstrates Object-Oriented Programming concepts while utilizing interfaces to 
 - [ShapeCollection](https://github.com/abigaildesagun/DeSagunAbigailCS2102_OOPactivities/blob/main/Laboratory%20Activities/Laboratory%20Activity%204%20-%20%7B28%7D-%7BNovember%7D-%7B2024%7D/Shapes/ShapeCollection.java): Utilizes the concept of for-each loop to print the different values of the shapes.
 Note: Ensure that only the classes needed for external access are included in the package, and follow Java's standard for package naming by using **lowercase** formatting.
 
-### Instruction for Reviewers
+#### Instruction for Reviewers
 - Each person has their unique coding style. Do not just copy others' code, use it as inspiration to develop your own tailored approach.
 - Consistently practice coding to internalize the syntax and make it second nature.
 
-### Purpose
+#### Purpose
 - The activities in this repository are designed to challenge your understanding of Java programming, encouraging not only implementation but also the pursuit of efficient solutions. They also demonstrate the application of core Java programming concepts.
