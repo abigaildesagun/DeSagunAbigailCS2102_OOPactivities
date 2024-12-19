@@ -1,7 +1,7 @@
 # Laboratory Activities
 
 ### Overview
-This repository is composed of laboratory activities that explores the foundational concepts of Java Object-Oriented Programming (OOP) and other essential programming techniques. Key topics include:
+This repository is composed of laboratory activities that explore the concepts of Java Object-Oriented Programming (OOP) and other essential programming techniques. Key topics include:
 ##### Object-Oriented Programming Concepts:
 - Encapsulation: Utilizing getters and setters
 - Abstraction: Implementing abstract classes and interfaces
