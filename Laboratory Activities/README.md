@@ -1,4 +1,4 @@
-# Laboratory Activities Repository
+# Laboratory Activities
 
 ### Overview
 This repository in composed of laboratory activities that explores the foundational concepts of Java Object-Oriented Programming (OOP) and other essential programming techniques. Key topics include:
